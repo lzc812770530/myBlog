@@ -1,0 +1,216 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>技术博客</title>
+    <style>
+        #head a{
+            color:#585858;;
+            text-decoration:None;
+        }
+        #head a:hover{
+            color:#D3E2EF;
+        }
+        .pic:hover{
+            transform:scale(1.1);
+        }
+        .pic{
+            transition:all .5s;
+        }
+    </style>
+</head>
+<body>
+    {%block head%}
+    <div id="head" style="height:80px;border-bottom:1px solid #F0F0F0;margin-left:-5px;margin-right:-5px;padding:0px;padding-top:32px;float:left;clear:both;">
+        <span style="color:#585858;padding-left:400px;">LZCBlog</span>
+        <span style="padding-left:700px;"><a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=101429322&redirect_uri=http://www.cbbtop.com/Index/callback&state=668c20eb16074c27945474956845cb04&scope=get_user_info"><img src="{%static 'images/qq.png'%}"></a></span>
+        <span style="padding-left:35px;"><a href="">文章列表</a></span>
+        <span style="padding-left:35px;"><a href="">视频资料</a></span>
+        <span style="padding-left:35px;"><a href="">友情链接</a></span>
+        <span style="padding-left:35px;"><a href="">关于本站</a></span>
+        <span style="padding-left:35px;"><a href=""><img src="{%static 'images/search.png'%}" width="20" height="20"></a></span>
+    </div>
+    {%endblock%}
+    {%block body%}
+    <div id="body" style="width:1895px;margin:0px;padding:0px;background-color:#F7F7F7;float:left;">
+        <div style="margin-left:-5px;margin-right:-5px;padding:0px;padding-top:32px;float:left;">
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 477px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/1.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>-+
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;text-decoration:None;" onmouseover="style='text-decoration:underline;color:#585858;'" onmouseleave="style='text-decoration:None;color:#585858;'">python基础语法之列表</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="font-size:10px;color:#585858;text-decoration:None;" onmouseover="style='font-size:10px;text-decoration:underline;color:#585858;'" onmouseleave="style='font-size:10px;text-decoration:None;color:#585858;'">查看全文</a>
+                        <div style="display:inline-block;margin-left:90px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 50px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/2.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;">python基础语法之字符串</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="color:#585858;">查看全文</a>
+                        <div style="display:inline-block;margin-left:80px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 50px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/3.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;">python基础语法之元组</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="color:#585858;">查看全文</a>
+                        <div style="display:inline-block;margin-left:80px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-left:-5px;margin-right:-5px;padding:0px;padding-top:32px;float:left;">
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 477px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/4.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;">python基础语法之字典</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="color:#585858;">查看全文</a>
+                        <div style="display:inline-block;margin-left:80px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 50px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/5.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;">python基础语法之集合</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="color:#585858;">查看全文</a>
+                        <div style="display:inline-block;margin-left:80px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 50px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/6.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;">python基础语法之函数</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="color:#585858;">查看全文</a>
+                        <div style="display:inline-block;margin-left:80px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-left:-5px;margin-right:-5px;padding:0px;padding-top:32px;padding-bottom:70px;float:left;">
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 477px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/7.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;">python基础语法之循环</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="color:#585858;">查看全文</a>
+                        <div style="display:inline-block;margin-left:80px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 50px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/8.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;">python基础语法之面向对象</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="color:#585858;">查看全文</a>
+                        <div style="display:inline-block;margin-left:80px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:300px;height:360px;float:left;border-radius:5px 5px 5px 5px;margin:0px 0px 0px 50px;overflow:hidden;">
+                <a href=""><img src="{%static 'images/9.jpg'%}" width="300px" height="360px" class="pic"></a>
+                <div style="width:220px;height:100px;transform:rotate(-10deg) translate(140px,-190px);background-color:black;opacity:0.5;cursor:default;"></div>
+                <div style="width:320px;height:100px;transform:rotate(10deg) translate(-68px,-280px);background-color:white;cursor:default;"></div>
+                <div style="width:300px;height:116px;background-color:white;transform:translate(0px,-320px);cursor:default;">
+                    <div style="height:70px;text-align:center;"><a href="" style="color:#585858;">python基础语法之异常</a></div>
+                    <div style="text-align:left;margin:-10px 0px 0px 10px;">
+                        <a href="" style="color:#585858;">查看全文</a>
+                        <div style="display:inline-block;margin-left:80px;">
+                            <div style="text-align:right;"><img src="{%static 'images/python.gif'%}" style="width:30%;height:30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-left:-5px;margin-right:-5px;padding:0px;padding-top:32px;float:left;">
+            <div style="width:30px;height:30px;float:left;margin-left:877px;border:1px solid #DDDDDD;text-align:center;line-height:30px;"><a href="" style="text-decoration:None;color:#585858;">&lt;&lt;</a></div>
+            <div style="width:30px;height:30px;float:left;margin-left:20px;;border-left:1px solid #DDDDDD;border-top:1px solid #DDDDDD;border-bottom:1px solid #DDDDDD;text-align:center;line-height:30px;"><a href="1" style="text-decoration:None;color:#585858;">1</a></div>
+            <div style="width:30px;height:30px;float:left;margin:0px;border-left:1px solid #DDDDDD;border-top:1px solid #DDDDDD;border-bottom:1px solid #DDDDDD;text-align:center;line-height:30px;"><a href="2" style="text-decoration:None;color:#585858;">2</a></div>
+            <div style="width:30px;height:30px;float:left;margin:0px;border:1px solid #DDDDDD;text-align:center;line-height:30px;"><a href="3" style="text-decoration:None;color:#585858;">3</a></div>
+            <div style="width:30px;height:30px;float:left;margin-left:20px;border:1px solid #DDDDDD;text-align:center;line-height:30px;"><a href="" style="text-decoration:None;color:#585858;">&gt;&gt;</a></div>
+        </div>
+    </div>
+    {%endblock%}
+    {%block tail%}
+    <div id="tail" style="float:left;border-bottom:1px solid #F0F0F0;">
+        <span>
+            <div style="width:30px;height:30px;float:left;clear:both;margin:50px 0px 0px 1500px;"><a href=""><img src="{%static 'images/social_fb.png'%}" style="width:100%;height:100%;"></a></div>
+            <div style="width:30px;height:30px;float:left;margin:50px 0px 0px 30px;"><a href=""><img src="{%static 'images/social_github.png'%}" style="width:100%;height:100%;"></a></div>
+            <div style="width:30px;height:30px;float:left;margin:50px 0px 0px 30px;"><a href=""><img src="{%static 'images/social_sina.png'%}" style="width:100%;height:100%;"></a></div>
+            <div style="width:30px;height:30px;float:left;margin:50px 0px 0px 30px;"><a href=""><img src="{%static 'images/social_twitter.png'%}" style="width:100%;height:100%;"></a></div>
+            <div style="width:30px;height:30px;float:left;margin:50px 0px 0px 30px;"><a href=""><img src="{%static 'images/social_wechat.png'%}" style="width:100%;height:100%;"></a></div>
+        </span>
+    </div>
+    <div id="tail2" style="height:200px;float:left;padding-left:400px;padding-top:80px;">
+        <div style="width:50px;height:50px;text-align:center;float:left;clear:both;">
+            <p style="color:#585858;">LZCBlog</p>
+        </div>
+        <div style="width:200px;height:50px;float:left;margin:0px 0px 0px 200px;">
+            <p style="color:#585858;">Copyright</p>
+            <p style="color:#585858;">©2017 CBBTOP</p>
+            <p style="color:#585858;">Design By LZC</p>
+            <p style="color:#585858;">LZC 版权所有</p>
+            <p style="color:#585858;">粤ICP备17021590号-1</p>
+        </div>
+        <div style="width:200px;height:50px;float:left;margin:0px 0px 0px 200px;">
+            <p style="color:#585858;">最新文章</p>
+            <p><a href="" style="color:#585858;text-decoration:None;">python基础语法</a></p>
+            <p><a href="" style="color:#585858;text-decoration:None;">python函数</a></p>
+            <p><a href="" style="color:#585858;text-decoration:None;">python多线程</a></p>
+            <p><a href="" style="color:#585858;text-decoration:None;">python网络</a></p>
+        </div>
+        <div style="width:300px;height:50px;float:left;margin:0px 0px 0px 200px;">
+            <p style="color:#585858;">最新留言</p>
+            <p><a href="" style="color:#585858;text-decoration:None;">JamesSkabe : http://bbs.co.99.com/...</a></p>
+            <p><a href="" style="color:#585858;text-decoration:None;">TerryMip : https://remont-okonka.ru...</a></p>
+            <p><a href="" style="color:#585858;text-decoration:None;">TerryMip : https://hydra-web24.cn H...</a></p>
+            <p><a href="" style="color:#585858;text-decoration:None;">DominicTat : 蝦皮商城 https://shopee...</a></p>
+        </div>
+    </div>
+    {%endblock%}
+</body>
+</html>
